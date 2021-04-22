@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <title>Document</title>
+</head>
+
+<style>
+    body{
+        background-color: white;
+    }
+    .head{
+        position: absolute;
+        overflow: hidden;
+        width: 100vw;
+    }
+    .head div{
+        float: right;
+        margin-right: 30px;
+        padding: 0 10px 0 10px;
+        background-color: #A7E66E;
+       
+    }
+    .or_images {
+        position: absolute;
+        top: 3vw;
+    }
+
+    .circle_box {
+        width: 10.416666666666668vw;
+        height: 10.416666666666668vw;
+        border-radius: 50%;
+        background-color: #A7E66E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+    }
+
+    .circle_box img {
+        width: 9.114583333333334vw;
+    }
+
+    .b1 {
+        top: 5.208333333333334vw;
+        left: 9.114583333333334vw;
+    }
+
+    .b2 {
+        top: 13.085937500000002vw;
+        left: 23.6328125vw;
+    }
+
+    .b3 {
+        top: 20.8984375vw;
+        left: 9.114583333333334vw;
+    }
+    .dtl_grp{
+        position: absolute;
+        top: 13vw;
+        left: 15vw;
+    }
+  
+    .dt_line1,.dt_line2,.dt_line3{
+        height: 0.06510416666666667vw;
+        border-bottom: 2px dashed black;
+        position: absolute;
+        transform: rotate(35deg);
+        opacity: 0.3;
+    }
+    .dt_line1{
+        width: 6.5vw;
+         top: 3vw;
+        left: 4vw; 
+    }
+    .dt_line2{
+        width: 5.208333333333334vw;
+        top: 8.1vw;
+        left: -3vw;
+        transform: rotate(90deg);
+    }
+    .dt_line3{
+        width: 6.510416666666667vw;
+        top: 13vw;
+        left: 3.9vw;
+        transform: rotate(140deg);
+    }
+    .healty{
+        position: absolute;
+        top: 19.5vw;
+        left: 18vw;
+        font-weight: 600;
+        opacity: 0.7;
+        font-size: 1vw;
+    }
+
+    .ayur_text p {
+        position: absolute;
+        width: 40vw;
+        top: 35vw;
+        font-weight: 800;
+        opacity: 0.7;
+        font-size: 1.9531250000000002vw;
+
+    }
+
+    .right1 {
+        position: absolute;
+        top: 15vw;
+        width: 60vw;
+      right: 0;
+        line-height: 2.604166666666667vw;
+    }
+    .kya_text{
+        font-weight: 900;
+        font-size: 2.9296875vw;
+        line-height: 3.9vw;
+    }
+    .rog_mukt{
+        color: red;
+        font-size: 4vw;
+    }
+    .j_a{
+        margin-top: 3.2552083333333335vw;
+        
+        font-weight: 700;
+        opacity: 0.7;
+        font-size: 3.2552083333333335vw !important;
+        line-height: 2.604166666666667vw;
+    }
+    .action{
+        margin-top: 3.9062500000000004vw;
+    }
+
+
+    @media(min-width: 501px) and (max-width: 860px)
+    {
+        .head{
+            display: none;
+        }
+        .head div{
+            display: none;
+        }
+        .or_images {
+        top: 5vw;
+    }
+    .dtl_grp{
+        top: 15vw;
+    }
+    .healty{
+        
+        top: 21vw;
+        left: 17vw;
+        font-size: 1.5vw;
+        
+    }
+    }
+    @media(min-width: 0) and (max-width: 500px)
+    {
+        .head{
+        display: none ;
+    }
+    
+    .or_images {
+        position: relative;
+        top: 85vw;
+        left: -5vw;
+        
+    }
+
+   
+    .dtl_grp{
+       display: none;
+    }
+   
+    
+    .healty{
+       top: 119vw;
+       left: 12vw;
+       font-size: 1.8vw;
+       font-weight: 1000 !important;
+    }
+
+    .ayur_text p {
+        position: relative;
+        width: 100vw;
+        top: 90vw;
+        font-weight: 800;
+        opacity: 0.7;
+        font-size: 5vw;
+
+    }
+
+    .right1 {
+        position: relative;
+        top: 0vw;
+        width: 100vw;
+        float: center;
+        line-height: 2.604166666666667vw;
+    }
+    .kya_text{
+        font-weight: 900;
+        font-size: 5.5vw;
+        line-height: 7.5vw;
+    }
+    .rog_mukt{
+       
+        font-size: 8vw;
+    }
+    .j_a{
+        margin-top: 3.2552083333333335vw;
+        
+        font-weight: 700;
+        opacity: 0.7;
+        font-size: 6vw !important;
+        line-height: 5.5vw;
+    }
+    .action{
+        margin-top: 3.9062500000000004vw;
+    }
+    }
+</style>
+
+<body >
+    	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light shadow  pt-0 pb-0 top_menu" style="background-color: white;height: 100% !important;">
+		<!-- height of navbar is just cause of image -->
+		<div  style="margin-left: -12px;"><a class="navbar-brand" href="#"><img  src="images/jh_logo.png" alt="logo"></a></div>
+		
+		<button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon "></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse " id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link text-dark middle" href="index.html">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item ">
+			  <a class="nav-link text-dark middle" href="products.html">Products</a>
+			</li>
+			<li class="nav-item ">
+				<a class="nav-link text-dark middle" href="about.html">About</a>
+			  </li>
+			  <li class="nav-item ">
+				<a class="nav-link text-dark middle" href="testimonials.html">Testimonials</a>
+			  </li>
+			  <li class="nav-item ">
+				<a class="nav-link text-dark middle" href="gallery.html">Gallery</a>
+			  </li>
+			  <li class="nav-item ">
+				<a class="nav-link text-dark middle" href="contacts.html">Contacts</a>
+			  </li>
+		
+			
+		  </ul>
+		 
+
+		
+		  <div  class="info_text_inside">
+			<span><i class="fa fa-phone"> </i>	464646848648</span><span><i class="fa fa-envelope"> </i>  abc@gmail.com</span><span><i class="fa fa-map-marker"> </i> Ranchi, India</span>
+		  </div>
+
+		</div>
+		
+		
+	
+	  </nav>
+	  <div  class="info_text_outside" style="background-color: #A7E66E;">
+		<span style="background-color: transparent;color: black;opacity: 0.9"><i class="fa fa-phone"> </i>	464646848648</span><span style="background-color: transparent;color: black;opacity: 0.9;"><i class="fa fa-envelope"> </i>  abc@gmail.com</span>
+	  </div>
+      
+    <div class="head">
+    <div>new garden siram toli old H.B road near sarna maidan, Ranchi, Jharkhand </div></div>
+
+    <div class="or_images">
+        <div class="circle_box b1"><img src="images/heart_bg.png" alt="images1"></div>
+        <div class="circle_box b2"><img src="images/kid_bg.png" alt="image2"></div>
+        <div class="circle_box b3"><img src="images/gall_bg.png" alt="image3"></div>
+    </div>
+
+   
+       <div class="dtl_grp">
+        <div class="dt_line1"></div>
+        <div class="dt_line2"></div>
+        <div class="dt_line3"></div>
+       </div>
+   
+    <div class="healty">Healthy<br/>Organs</div>
+
+    <div class="ayur_text">
+            <p class="text-center pl-5">आयुर्वेद का सम्पूर्न समाधान<br />बिना चीड़-फाड़ के अंगो<br/>का सफल इलाज
+        </p>
+    </div>
+
+    <div class="right1">
+        <p class="kya_text text-center">क्या आप <span class="rog_mukt">रोग मुक्त</span> शरीर पाना चाहते है ?<br/>तो अभी सम्पर्क करे !
+        </p>
+        <p class="j_a text-center">JHARKHAND<br />Aushadhalaya</p>
+        <div class="action text-center"><button class="btn btn-danger btn shadow"><i class="fa fa-phone"> </i> Call Now</button></div>
+    </div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

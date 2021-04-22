@@ -1,0 +1,590 @@
+html{
+    scroll-behavior: smooth;
+}
+.carousel-item{
+    height: 80vh;
+    
+
+}
+.navbar-brand img{
+    height: 40px;
+
+}
+hr{
+    border-color: grey;
+    border-width: 0.5px;
+   
+}
+.cr_img_div{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10vw 0 10vw;
+    position: relative
+    
+}
+.cr_img_cover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    
+}
+.cr_img_div h4{
+    z-index: 1000;
+    font-weight: 900;
+}
+.carousel_item_grid
+{
+    padding: 5vw;
+}
+.car_img_div{
+    height: 80vh;
+    background-color: black;
+}
+.photo_over{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(117, 113, 113);
+    opacity: 0.1;
+
+}
+.carousel_img{
+    width: 100rem;
+}
+.top_menu{
+    border-bottom: 1px solid black !important;
+}
+.info_text_inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.info_text_inside span{
+    margin-left: 20px;
+    background-color: #6aaf2d;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+.info_text_outside{
+    display: none;
+}
+
+.text_on_car_img{
+    position: absolute;
+    height: 80vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jh_text{
+    color: black;
+    font-size: 100px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.aus_text{
+    color: white;
+    font-size: 75px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -50px;
+}
+.carousel_text{
+    color: white;
+    opacity: 0.9;
+    position: relative;
+    top: -3vw;
+}
+.social{
+    cursor: pointer;
+}
+
+.img_btn{
+    z-index: 10001;
+    position: relative;
+    top: 20px;
+   
+}
+.card-text{
+    opacity: 0.8;
+}
+.card-title{
+    margin-top: 10px;
+}
+.ft_link{
+    opacity: 0.8;
+}
+
+
+/* link hover underline animation */
+a.middle
+{
+    position: relative;
+}
+
+a.middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+a.middle:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+
+/* product catalog */
+/* product catalog styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body {
+    background-color: #f8f8f8
+
+}
+
+/* .container {
+    margin-top: 20px;
+    padding: 40px 20px
+} */
+
+.box,.box_image {
+    padding: 40px 30px;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+	border:  2px solid white;
+	box-shadow: 1px 1px 6px grey;
+    overflow: hidden;
+	
+	
+}
+.box_image{
+    z-index: 1001;
+}
+
+.box:hover {
+    box-shadow: 2px 2px 10px #a5a5a5;
+    transform: scale(1.05)
+}
+.box_image:hover{
+    z-index: 100000;
+    box-shadow: 2px 2px 10px #a5a5a5;
+    transform: scale(1.5);
+  
+  
+    
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.pp_img1 {
+   width: 90%;
+   position: relative;
+   top: -50px;
+   
+	
+	
+}
+
+p.text-muted {
+    margin: 0;
+    font-size: 0.9rem
+}
+
+b {
+    font-size: 1.12rem
+}
+
+.rounded-circle {
+	
+    width: 300px;
+    height: 200px;
+    background-color: #28A745 !important;
+}
+
+.blue {
+    background-color: #bedcfa;
+    transform: rotateZ(90deg)
+}
+
+.pale-blue {
+    background-color: #eff8ff
+}
+
+.pale-orange {
+    background-color: #ffe5b9
+}
+
+.pale-purple {
+    background-color: #e8e8e8
+}
+
+.pale-cyan {
+    background-color: #cffffe
+}
+
+.pale-pink {
+    background-color: #ffe4e4
+}
+
+.pale-pale {
+    background-color: #f4eeff
+}
+
+.pale-green {
+    background-color: #a0ffe6
+}
+
+.pale-pista {
+    background-color: #dbf6e9
+}
+
+.gallery_box{
+    height: 200px;
+}
+
+.paper_text{
+    font-size: 10px;
+}
+
+.video_content{
+    margin-top: 100px;
+}
+.mn_unit{
+    margin-top: 100px;
+}
+.float_btn{
+    position: fixed;
+    top: 80vh;
+    width: 40px;
+    height: 40px;
+    background-color: #28A745;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    right: 10vw;
+    border: 1px solid white;
+    z-index: 1001;
+    box-shadow: -2px 2px 6px grey !important;
+}
+
+.about_txt{
+    padding: 40px;
+}
+@media(max-width: 600px){
+    .cr_img_div{
+        height: 40vh;
+    }
+    .about_txt{
+        padding: 20px;
+    }
+    /* .carousel-item{
+        height: 80vh;
+        padding: 10vw;
+    }
+
+    .jh_text{
+       font-size: 55px;
+    
+    }
+    .aus_text{
+       font-size: 40px;
+       margin-top: -30px;
+    }
+    .sp{
+        margin-top: 30px;
+    }
+    .card-text,.card-title{
+        font-size: 15px;
+    }
+    .gl{
+        font-size: 11px;
+    }
+    .card-footer{
+        display: none;
+    }
+    .card-header{
+        display: none;
+    }
+    .sign_text{
+       position: relative;
+        top: -6vw !important;
+    }
+    .carousel_text{
+        
+        position: relative;
+        top: -7vw !important;
+    } */
+}
+
+@media(min-width: 801px){
+    .p_row_2{
+        margin-top: 20px !important;
+    }
+}
+@media(max-width: 800px){
+    .in2,.in3,.in4,.in5,.in6{
+        margin-top: 10px;
+    }
+    .car_img_div{
+        height: 80vh;
+    }
+    .carousel_img{
+        width: 25rem;
+    }
+    .text_on_car_img{
+        height: 40vh;
+       
+    }
+    .info_text_inside{
+        display: none;
+    }
+    .info_text_outside{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #6aaf2d;
+        width: 100vw;
+        padding: 0 10px 0 10px;
+        
+       
+    }
+    .info_text_outside span{
+       margin-left: 5px;
+        background-color: #6aaf2d;
+        color: black;
+        opacity: 0.8;
+       
+    }
+   
+    .carousel-item{
+        height: 80vh;
+        padding: 10vw;
+    }
+
+    .jh_text{
+       font-size: 55px;
+    
+    }
+    .aus_text{
+       font-size: 40px;
+       margin-top: -30px;
+    }
+    .sp{
+        margin-top: 30px;
+    }
+    .card-text,.card-title{
+        font-size: 15px;
+    }
+    .gl{
+        font-size: 11px;
+    }
+    .card-footer{
+        display: none;
+    }
+    .card-header{
+        display: none;
+    }
+    .sign_text{
+       position: relative;
+        top: -6vw !important;
+    }
+    .carousel_text{
+        
+        position: relative;
+        top: -7vw !important;
+    }
+}
+
+/* testimonias----------------------------- */
+
+
+.test_text {
+    font-size: 15px;
+    line-height: 25px !important;
+    color: #fff
+}
+
+.small {
+    letter-spacing: 0.5px !important
+}
+
+.card {
+    box-shadow: 0px 5px 16px rgba(223, 241, 223, 0.5);
+    transition: 0.8s;
+    background: #333;
+    ;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 7px !important
+}
+
+.card-header,
+.card-footer {
+    border-radius: 7px !important
+}
+
+.card:after {
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    z-index: 9999;
+    height: 100%;
+    pointer-events: none
+}
+
+.card-title img {
+    z-index: 99999 !important
+}
+
+.card .layer {
+    position: absolute;
+    top: calc(100% - 5px);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#03a9f4, #e91ee3);
+    left: 0;
+    z-index: 1;
+    transition: 0.5s
+}
+
+.card:hover {
+    box-shadow: -5px 50px 100px rgba(223, 241, 223, 0.5)
+}
+
+.card:hover hr {
+    background-color: #fff
+}
+
+.card:hover h4 {
+    font-weight: 600
+}
+
+
+
+.card:hover small {
+    font-weight: 600
+}
+
+.card:hover .layer {
+    top: 0
+}
+
+.card .content {
+    position: relative;
+    z-index: 2
+}
+
+.card .content .img-1 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white !important
+}
+
+.card h4 {
+    color: #fff;
+    font-weight: 500
+}
+
+hr {
+    background-color: rgb(117, 117, 117);
+    width: 80% !important;
+    transition: 1s
+}
+
+.bold {
+    font-weight: 500
+}
+
+#quotes {
+    opacity: 0.1;
+    filter: alpha(opacity=40)
+}
+
+@media (max-width: 479px) {
+    .test_text {
+        padding: 0 !important;
+		line-height: 33px !important;
+
+    }
+
+    .img-1 {
+        margin-right: 0 !important;
+    }
+    
+}
+.extra_title_text{
+    background-color: #28A745;
+    padding: 5px;
+    color: white;
+}
+.contact_form_input{
+    width: 90%;
+    padding: 5px;
+    height: 30px;
+}
+.sign_text{
+    color: white;
+    opacity: 0.6;
+    position: relative;
+    top: -2.5vw;
+}
+.card-text,.card-title{
+color: white;
+}
+/* .ratio_cd_1{
+padding-bottom: 15px;
+}
+.ratio_cd_2{
+    padding-bottom: 10px;
+    } */
+    .ratio_card{
+        position: relative;
+    }
+   
+    .ratio_bg_cover{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.4;
+
+    }
+    .card-body{
+       
+        z-index: 1000;
+    }
+    
